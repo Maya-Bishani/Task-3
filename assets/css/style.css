@@ -327,6 +327,12 @@ footer .end{
         padding: 5px;
 
     }
+    .navbar .ul{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+    
+    }
     
     .navbar .ul li a{
         font-size: medium;
@@ -344,7 +350,7 @@ footer .end{
         display: flex;
         justify-content: center;
         flex-direction: column;
-        padding-left: 10px;
+        align-items: center;
     }
 }
 @media(max-width:390px){
@@ -352,13 +358,14 @@ footer .end{
         height: 90px;
     }
     .navbar .ul{
-        display: flex;
-        flex-wrap: wrap;
+      
+    
     }
+
 }
 @media(max-width:522px) and (min-width:496px){
-    .navbar .ul {
+   /* .navbar .ul {
         display: flex;
         flex-wrap: wrap;
-    }
+    }*/
 }
